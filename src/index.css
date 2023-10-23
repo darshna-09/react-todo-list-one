@@ -1,0 +1,184 @@
+.main_div{
+    width: 100%;
+    height: auto;
+    background-color: rgb(157, 177, 241);
+    display: flex;
+    padding-bottom:50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center_div{
+    width: 25%;
+    height: auto;
+    margin-top:50px;
+    padding-bottom:20px;
+    background-color: #f4f4f4;
+    border-radius:15px;
+    box-shadow:5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+input{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    height: 30px;
+    top:10px;
+    text-align: center;
+    margin-bottom:12px;
+    border:none;
+    background: transparent;
+    font-family: cursive;
+    border-bottom: 2px solid #8566aa;
+    outline:none;
+}
+h1{
+    background-color: #8566aa;
+    color:white;
+    padding:6px 0 2px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* button{
+    width: 42px;
+    height: 44px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #8566aa;
+    color:#fff;
+    font-size: 40px;
+    border:none;
+    outline:none;
+    margin-left:10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+    background-color: #52a77a;
+} */
+ol{
+    margin-top: 30px;
+}
+ol li{
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    color:#8566aa;
+    text-transform: capitalize;
+    list-style-type:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.todo_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.todo_style .fa-times{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin:0 15px 0 35px;
+    color:aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.todo_style .fa-times:hover {
+    background-color: crimson;
+}
+.todo_style .fa-times:hover .list_style{
+    color:crimson;
+}
+.main_divv{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(157, 177, 241);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center_divv{
+    width: 25%;
+    height: 76vh;
+    background-color: #f4f4f4;
+    border-radius:15px;
+    box-shadow:5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+.incbtn{
+    width: 90px;
+    border-color: transparent;
+    background-color: #18a85e;
+    color:#fff;
+    font-size: 40px;
+    border:none;
+    outline:none;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.decbtn{
+    width: 90px;
+    border-color: transparent;
+    background-color: #c50505;
+    color:#fff;
+    font-size: 40px;
+    border:none;
+    outline:none;
+    margin-left:20px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.btn_divv{
+    margin-top:128px;
+}
+.count{
+    margin-top:63px;
+    font-size: 60px;
+    /* font-weight: bold; */
+    text-shadow: 4px 6px 5px gray;
+}
+.count1{
+    margin-top:10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold; */
+    text-shadow: 4px 6px 5px gray;
+}
+.newBtn {
+    width: 50px;
+    height: 55px;
+    background-color: #16a085 !important;
+    color:white !important;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+    border-radius: 50% !important;
+}
+.newBtn:hover{
+    color:#16a085 !important;
+    background:white !important;
+}
+.todo_style .deleteicon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin:5px 15px 0 35px;
+    padding:5px;
+    color:aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+.todo_style .deleteicon:hover{
+    background-color: transparent;
+    color:crimson;
+    box-shadow: 5px 5px 15px -5px rgba(255,0,0,0.5);
+}
